@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="476" height="612" viewBox="0 0 476 612">
+  <defs>
+    <filter id="Rectángulo_33" x="0" y="0" width="476" height="612" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1537" data-name="Grupo 1537" transform="translate(-169 -4897)">
+    <g transform="matrix(1, 0, 0, 1, 169, 4897)" filter="url(#Rectángulo_33)">
+      <g id="Rectángulo_33-2" data-name="Rectángulo 33" transform="translate(9 6)" fill="#27293f" stroke="#c9c9c9" stroke-width="0.5">
+        <rect width="458" height="594" stroke="none"/>
+        <rect x="0.25" y="0.25" width="457.5" height="593.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_1536" data-name="Grupo 1536">
+      <path id="Trazado_685" data-name="Trazado 685" d="M29.5,0A29.5,29.5,0,1,1,0,29.5,29.5,29.5,0,0,1,29.5,0Z" transform="translate(370 4959)" fill="#ff7573"/>
+      <path id="Icon_metro-quote" data-name="Icon metro-quote" d="M8.355,21.278V32.915H19.992V21.278H14.174s0-5.819,5.819-5.819V9.64S8.355,9.64,8.355,21.278Zm29.094-5.819V9.64s-11.638,0-11.638,11.638V32.915H37.449V21.278H31.63S31.63,15.459,37.449,15.459Z" transform="translate(376.396 4967.223)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
