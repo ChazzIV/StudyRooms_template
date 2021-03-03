@@ -1,20 +1,20 @@
 const btnMenu = document.querySelector('.btn-menu');
 const menu = document.querySelector('.link__container');
 let on_off = true;
-//nav
-let ubicacionPrincipal = window.pageXOffset; //0
+// //nav
+// let ubicacionPrincipal = window.pageXOffset; //0
 
-  AOS.init();
+//   AOS.init();
 
-window.addEventListener('scroll', () => {
-    let desplazamientoActual = window.pageYOffset; //mide 100
-    // if(ubicacionPrincipal>=desplazamientoActual){ //100 es mayo a 100
-    //     document.getElementsByTagName('nav__container')[0].style.top = '0px'; 
-    // }else{
-    //     document.getElementsByTagName('nav__container')[0].style.top = '-100px'
-    // }
-    ubicacionPrincipal= desplazamientoActual; // 100
-})
+// window.addEventListener('scroll', () => {
+//     let desplazamientoActual = window.pageYOffset; //mide 100
+//     if(ubicacionPrincipal>=desplazamientoActual){ //100 es mayo a 100
+//         document.getElementsByTagName('nav__container')[0].style.top = '0px'; 
+//     }else{
+//         document.getElementsByTagName('nav__container')[0].style.top = '-100px'
+//     }
+//     ubicacionPrincipal= desplazamientoActual; // 100
+// })
 
 
 // Responsive Menu
